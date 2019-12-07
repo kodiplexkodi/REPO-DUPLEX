@@ -21,8 +21,13 @@
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension> 
-
-
+  
+   <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/kodiplexkodi/REPO-DUPLEX/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodiplexkodi/REPO-DUPLEX/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/kodiplexkodi/REPO-DUPLEX/master/Repositorio/</datadir>
+    </extension>
+    
   <extension point="xbmc.addon.metadata">
     <disclaimer>
 	Addon Creado Por equipo Kodi Plex
